@@ -1,0 +1,10 @@
+[26-Mar-2018 12:30:30 UTC] PHP Warning:  Uncaught Symfony\Component\Debug\Exception\ContextErrorException: Warning: require(/home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/getCacheWarmerService.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/appDevDebugProjectContainer.php:1106
+Stack trace:
+#0 /home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/appDevDebugProjectContainer.php(1106): require()
+#1 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/DependencyInjection/Container.php(297): ContainerOdgp1rp\appDevDebugProjectContainer->load('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(673): Symfony\Component\DependencyInjection\Container->get('cache_warmer')
+#3 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kernel.php(137): Symfony\Component\HttpKernel\Kernel->initializeContainer()
+#4 /home/ubuntu/workspace/vendor/symfony/symfony/src/Symfony/Component/HttpKernel/Kerne in /home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/appDevDebugProjectContainer.php on line 1106
+[26-Mar-2018 12:30:30 UTC] PHP Fatal error:  ContainerOdgp1rp\appDevDebugProjectContainer::load(): Failed opening required '/home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/getCacheWarmerService.php' (include_path='.:/usr/share/php') in /home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/appDevDebugProjectContainer.php on line 1106
+[26-Mar-2018 12:30:56 UTC] PHP Warning:  include(/home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/appDevDebugProjectContainer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/var/cache/dev/appDevDebugProjectContainer.php on line 7
+[26-Mar-2018 12:30:56 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/var/cache/dev/ContainerOdgp1rp/appDevDebugProjectContainer.php' for inclusion (include_path='.:/usr/share/php') in /home/ubuntu/workspace/var/cache/dev/appDevDebugProjectContainer.php on line 7

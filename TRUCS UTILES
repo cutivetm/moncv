@@ -1,0 +1,12 @@
+Documentation:
+
+http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/tutorials/getting-started.html
+
+Ouvrir le site avec:
+https://symfony-marinec.c9users.io/web/app_dev.php/
+
+
+
+Commande pour creer une entity ou une catégorie de données:
+marinec:~/workspace $ php bin/console doctrine:database:create 
+marinec:~/workspace $ php bin/console doctrine:generate:entity

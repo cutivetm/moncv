@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        
+        <link href="{{ asset('template/vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('template/vendor/devicons/css/devicons.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('template/vendor/simple-line-icons/css/simple-line-icons.css') }}" rel="stylesheet">
+        <link href="{{ asset('template/css/resume.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('template/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+        
+    </head>
+      <body id="page-top">
+        {% block body %}{% endblock %}
+        {% block javascripts %}
+        
+            <!-- Bootstrap core JavaScript -->
+    <script src="{{ asset('template/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('template/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ asset('template/vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ asset('template/js/resume.min.js') }}"></script>
+        {% endblock %}
+    </body>
+</html>
